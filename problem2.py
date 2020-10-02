@@ -34,4 +34,4 @@ if n2 > n1:
 if a % b == 0:
     print(b , "is a factor of" , a)
 else:
-    (b , "is not a factor of" , a)
+    print(b , "is not a factor of" , a)
