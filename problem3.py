@@ -29,21 +29,21 @@ Enter an integer=>2
 a = int(input("Enter side A\n"))
 b = int(input("Enter side B\n"))
 c = int(input("Enter side C\n"))
-An = str(a)
-Bn = str(b)
-Cn = str(c)
-if a > b and a > c:
+if a >= b and a >= c:
     C = a
     B = b
     A = c
-if b > a and b > c:
+if b >= a and b >= c:
     C = b
     B = a
     A = c
-if c > b and c > a:
+if c >= b and c >= a:
     C = c
     B = b
     A = a
+An = str(B)
+Bn = str(A)
+Cn = str(C)
 if (A**2) + (B**2) == (C**2):
     print(An + "," + Bn + "," + Cn + " form a Pythagorean triple")
 else:
