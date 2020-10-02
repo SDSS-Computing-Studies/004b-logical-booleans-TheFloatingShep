@@ -41,10 +41,16 @@ if c >= b and c >= a:
     C = c
     B = b
     A = a
-An = str(B)
-Bn = str(A)
+if A > B:
+    B2 = A
+    A2 = B
+else:
+    B2 = B
+    A2 = A
+An = str(A2)
+Bn = str(B2)
 Cn = str(C)
-if (A**2) + (B**2) == (C**2):
+if (A2**2) + (B2**2) == (C**2):
     print(An + "," + Bn + "," + Cn + " form a Pythagorean triple")
 else:
     print(An + "," + Bn + "," + Cn + " do not form a Pythagorean triple")
